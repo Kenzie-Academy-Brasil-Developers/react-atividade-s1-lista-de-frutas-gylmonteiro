@@ -1,10 +1,11 @@
 import "./App.css";
-import Metodos from "./components";
+import FruitList from "./components/FruitList";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Metodos />
+        <FruitList />
       </header>
     </div>
   );
